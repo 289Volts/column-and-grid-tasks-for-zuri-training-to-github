@@ -73,6 +73,7 @@ button {
   border-radius: 50px;
   margin-top: 50px;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .sedan button {
@@ -124,5 +125,6 @@ button {
     margin-bottom: 20px;
     padding: 20px 50px;
     font-size: 15px;
+    cursor: pointer;
   }
 }
