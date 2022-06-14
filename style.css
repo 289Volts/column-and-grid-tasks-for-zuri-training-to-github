@@ -12,7 +12,7 @@ body {
 
 .container {
   width: 900px;
-  margin: 8em auto 0 auto;
+  margin:  0 auto;
   display: flex;
   flex-direction: row;
   /* position: absolute;
@@ -26,6 +26,17 @@ h1 {
   font-weight: 700;
   padding: 30px 0;
   color: hsl(0, 0%, 95%);
+}
+
+.cta {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.cta:hover {
+  color: red;
 }
 
 .sedan,
@@ -97,6 +108,37 @@ button:hover {
   color: white;
 }
 
+/* Mobile style */
+@media  (max-width: 600px) {
+  .container {
+    margin: 10px auto;
+    width: 375px;
+    max-width: 400px;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sedan 
+
+  .sedan,
+.luxury,
+.suvs {
+  border-radius: 10px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 300px;
+  width: 100%;
+}
+}
+
 @media  (max-width: 768px) {
 
   .container {
@@ -149,5 +191,6 @@ h1 {
   background-color: transparent;
   border: 2px white solid;
   color: white;
+  border-radius: 50px;
 }
 }
