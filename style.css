@@ -123,12 +123,13 @@ button:hover {
 }
 
 .wrapper {
-  max-width: 60%;
+  max-width: 750px;
   background-color: white;
   height: 500px;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 1.5fr 0.7fr 1fr;
   padding: 10px;
   border-radius: 10px;
   outline: none;
